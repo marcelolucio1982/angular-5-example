@@ -1,4 +1,5 @@
 {
   "producao": false,
-  "backend": ""
+  "backend": "http://dev",
+  "ambiente": "DEV"
 }

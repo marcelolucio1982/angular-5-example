@@ -1,4 +1,5 @@
 {
     "producao": false,
-    "backend": ""
+    "ambiente": "HOM",
+    "backend": "http://hom"
   }

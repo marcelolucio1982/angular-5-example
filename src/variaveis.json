@@ -1,4 +1,5 @@
 {
-    "backend": "http local 2",
-    "versao": "1.0.0"
+    "backend": "http://local",
+    "ambiente": "LOCAL",
+    "producao": false
 }

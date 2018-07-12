@@ -1,4 +1,5 @@
 {
     "producao": true,
-    "backend": ""
+    "ambiente": "PROD",
+    "backend": "http://prod"
   }
