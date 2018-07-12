@@ -23,6 +23,16 @@ export class AppComponent implements OnInit {
 
         environment.production = this.retorno.producao;
         environment.backend = this.retorno.backend;
+        environment.ambiente = this.retorno.ambiente;
+
+      }, error => console.log(error));
+
+    this.http.get('./package.json')
+      .subscribe(data => {
+
+        this.retorno = data.json();
+
+        environment.versao = this.retorno.version;
 
       }, error => console.log(error));
   }
