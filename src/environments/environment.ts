@@ -4,5 +4,7 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 export const environment = {
   production: false,
-  backend: ''
+  backend: '',
+  versao: '0.0.0',
+  ambiente: 'LOCAL'
 };

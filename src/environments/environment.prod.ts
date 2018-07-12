@@ -1,4 +1,6 @@
 export const environment = {
   production: true,
-  backend: ''
+  backend: '',
+  versao: '0.0.0',
+  ambiente: 'PROD'
 };
