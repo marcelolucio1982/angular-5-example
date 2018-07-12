@@ -7,7 +7,7 @@
 
 # dependencies
 /node_modules
-
+dist/
 # IDEs and editors
 /.idea
 .project
@@ -15,7 +15,9 @@
 .c9/
 *.launch
 .settings/
+.scannerwork/
 *.sublime-workspace
+test-results.xml
 
 # IDE - VSCode
 .vscode/*
