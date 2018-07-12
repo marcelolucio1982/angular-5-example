@@ -1,6 +1,7 @@
 {
   "name": "angular-example",
   "version": "1.0.0-SNAPSHOT",
+  "description": "Angular Example",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
